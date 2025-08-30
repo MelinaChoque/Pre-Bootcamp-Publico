@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.datos_juego{
+    height: 20%;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+
+}
+
+.contenedor-juego{    
+    display: flex;
+    background-color: grey;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+}
+
+.fila{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: antiquewhite;
+    align-items: center;
+    width: 20%;
+}
+.recuadro{
+    border: 1px solid white;
+}
+.recuadro, .hamburguesa, .recuadro-negro, .gato,.papas,.perro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.hamburguesa, .gato, .papas,.perro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.papas{
+    background-image: url('img-pac-cat/papitas.png');
+}
+
+.hamburguesa{
+    background-image: url('img-pac-cat/burguer.png');
+}
+
+.gato{
+    background-image: url('img-pac-cat/gato.gif');
+}
+
+.perro{
+    background-image: url('img-pac-cat/perro.gif');
+}

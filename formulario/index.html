@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" class="formulario">
+        <h2 class="center">¡Registrate y unite a la comunidad!</h2>
+        <label for="nombre" class="text margen10">Nombre <input type="text" name="nombre"></label>
+        <label for="apellido" class="text margen10">Apellido <input type="text" name="apellido"></label>
+        <label for="email" class="text margen10">Correo Electrónico <input type="email" name="correo"></label>
+        <label for="contraseña" class="text margen10">Contraseña <input type="password" name="Contraseña"></label>
+        <label for="contraseña2" class="text margen10">Confirmar Contraseña <input type="password" name="Contraseña2"></label>
+        <label for="fecha" class="text margen10">Fecha de nacimiento <input type="date" name="fecha"></label>
+        <label for="" class="text margen10">
+            <span class="text columna margen10">Genero:</span>
+            <input type="radio" name="sexo" id="fem" value="fem" ><span class="margenR10">Femenino</span>
+            <input type="radio" name="sexo" id="mas" value="mas"><span class="margenR10">Masculino</span>
+            <input type="radio" name="sexo" id="x" value="x"><span class="margenR10">Prefiero no decir</span> 
+        </span>
+        <div class="text paddingTop">
+            <input type="checkbox" name="suscripcion" id="suscripcion" class="padding10">Suscríbete a nuestro boletín de noticias
+        </div>
+        <div class="text margen10">
+            Una descripción de mi mismo:
+            <textarea name="descripción" id=""></textarea>
+        </div>
+        <span class="text margen10">   
+            <span class="text">Selecciona tus intereses</span>
+            <select multiple name="interes" class="columna size1" size="5">
+                <option value="interes1">1. Música</option>
+                <option value="interes2">2. Deporte</option>
+                <option value="interes3">3. Viajes</option>
+                <option value="interes4">4. Tecnología</option>
+                <option value="interes5">5. Libros</option>
+            </select>
+        </span>
+        <input type="submit" value="¡Registrarse!" class="boton center letra-blanca padding10 " />
+
+    </form>
+</body>
+</html>
