@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    height: 90vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: #d3d3d5;
+}
+
+#search-input{
+    width: 550px;
+    height: 25px;
+}
+
+#btn_sesion{
+    color: white;
+    background-color: #268ef1;
+}
+
+main{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px 10px 10px 10px;
+}
+
+.pets{
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.info_pets{
+    display: flex;
+    flex-direction: column;
+}
+
+#btn_like, #btn_like_2{
+    width: 15%;
+    background-color: #f9fcd1;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+aside{
+    display: flex;
+    height: 20%;
+}
+
+.definition{
+    display: flex;
+    flex-direction: column;
+}
+
+.info_pets,.definition{
+    gap: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.p10{
+    padding: 10px;
+}
+
+.font_title,.font_subtitle,.font_italic,.font_information{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.font_subtitle{
+    font-size: 20px;
+}
+
+.font_italic{
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.font_information{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#btn_add_definition{
+    background-color: #008002;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+}

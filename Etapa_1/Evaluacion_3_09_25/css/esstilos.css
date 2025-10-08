@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3%;
+    width: 100%;
+    background-color: #99be8a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 72%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
+    select{
+        background-color: gainsboro;
+        border-radius: 5px;
+    }
+}
+
+.header_main:nth-child(2) {
+    border-bottom: none;
+}
+
+.contenedor_tarjeta_arbol {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta_arbol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+    width: 48%;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-color: gainsboro;
+    padding: 20px;
+}
+
+.contenedor_img{
+    display: flex;
+    height: 100%;
+    width: 25%;   
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.info_arbol {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: #92c47d;
+}
+
+.contenedor_info_footer {
+    display: flex;
+    width: 80%;
+    height: 50%;
+}
+
+.info_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 40%;
+}
+
+.title,
+.title_tarjeta {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.title_tarjeta {
+    font-size: 25px;
+    color: black;
+}
+
+.subtitle_tarjeta {
+    font-size: 15px;
+}
+
+#btn_adoptar,
+#btn_donar {
+    padding: 10px 15px 10px 15px;
+    margin-left: 15px;
+    background-color: #b1dd9e;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button{
+    cursor: pointer;
+}
+
+#btn_donar {
+    background-color: #38791f;
+}
+
+#btn_enviar {
+    padding: 3px;
+    color: white;
+    background-color: #38791f;
+    border: none;
+    margin: -4px;
+}
+
+.btn_adoptar_2 {
+    padding: 5px 15px 5px 15px;
+    background-color: #b1dd9e;
+    border: none;
+    font-size: 15px;
+}
+
+span.font_0 {
+    font-size: 0;
+}
+
+.font_verde_1,
+.font_verde_2,
+.font_verde_3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.font_verde_1 {
+    color: #0f8e23;
+}
+
+.font_verde_2 {
+    color: #c2d6bd;
+}
+
+.font_verde_3 {
+    color: #91c37c;
+}
