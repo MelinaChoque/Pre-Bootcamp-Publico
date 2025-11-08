@@ -48,10 +48,15 @@ export const appReducer = (estado, accion) => {
             ? [...estado.listaNota]
             : estado.listaNota.filter((e) => e.importancia === accion.filtro),
       };
+    case "ELIMINAR_NOTA":
+      return {
+        ...estado,
+        listaNota: estado.listaNota.filter((nota) => nota.id !== accion.id),
+      };
+
     default:
       return estado;
   }
 };
 
 export default appReducer;
-
